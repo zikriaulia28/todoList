@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 0 !important;
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+.container .title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #3B3949;
+}
+
+.title-color {
+  color: #FF5F26;
+}
+
+.wrap-profil {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #CCCED2;
+}
+
+.wrap-profil img {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}
+
+.text-profil {
+  font-size: 18px;
+  font-weight: 500;
+  color: #293038;
+}
+
+.content {
+  width: 800px;
+  border-radius: 12px;
+  padding: 40px 40px 27px 40px;
+  box-shadow: 0px 16px 90px rgba(19, 7, 52, 0.08);
+  background-color: #FFFFFF;
+}
+
+.title-content {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FF5F26;
+}
+
+.header-content div .text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header-content div p {
+  color: #7A7F83;
+}
+
+.button-add {
+  background-color: #FF5F26;
+  border-radius: 60px;
+  border: none !important;
+  width: 183px;
+  height: 48px;
+  gap: 10px;
+}
+
+form {
+  background-color: #F5F5F5;
+  display: none;
+}
+
+.from-add form input[type="text"],
+input[type="date"] {
+  border: none;
+}
+
+.form-add input[type="radio"] {
+  width: 28px;
+  height: 28px;
+}
+
+.filter p {
+  font-weight: 500;
+  color: #7A7F83;
+}
+
+.button-filter {
+  width: 136px;
+  height: 44px;
+  border-radius: 40px;
+  padding: 14px 10px;
+  border: 1px solid #FF5F26;
+  color: #FF5F26;
+}
+
+.button-filter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #FF5F26;
+}
+
+.task .btn-add {
+  width: 100px;
+  height: 40px;
+  background-color: #FF5F26;
+  border: none;
+  color: #FFFFFF;
+}
+
+.task div input[type="radio"] {
+  width: 28px;
+  height: 28px;
+}
+
+.task .task-desc h1 {
+  font-size: 18px;
+  color: #293038;
+  font-weight: 500;
+}
+
+.task-desc p {
+  font-size: 14px;
+  color: #7A7F83
+}
+
+.task .task-desc .news {
+  width: 97px;
+  height: 28px;
+  background-color: #FFEBD3;
+  font-size: 12px;
+  font-weight: 500;
+  color: #FF5F26;
+  border-radius: 50px;
+  border: none;
+}
+
+.task-complete {
+  margin-top: 112px;
+}
+
+.task-complete div p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7A7F83
+}
+
+.task-complete .task .check {
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  background-color: #FF5F26;
+}
+
+.desc-border {
+  border: none;
+  background-color: #F5F5F5;
+  color: #7A7F83;
+}
