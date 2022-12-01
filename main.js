@@ -19,6 +19,7 @@ const submitData = () => {
 }
 
 const menampilkanData = () => {
+  form.innerHTML = ""
   content.innerHTML = ""
   for (let i = 0; i < data.length; i++) {
     const card = document.createElement("div")
@@ -53,8 +54,6 @@ const menampilkanData = () => {
 
     desk.classList.add("p")
 
-    // icon.classList.add("bi")
-    // icon.classList.add("bi-trash")
     icon.innerHTML = `<div><i class="bi bi-trash" onclick="deleteData(${i})"></i></div>`
     h1.innerHTML = `${data[i].title}`
     button.innerHTML = `${data[i].date}`
