@@ -13,13 +13,14 @@ const submitData = () => {
       title: namaTugas, desc: desc, date: date
     }
     data.push(todo)
-    console.log(todo)
     menampilkanData()
+    kosongInput()
+
   }
 }
 
 const menampilkanData = () => {
-  form.innerHTML = ""
+  taskComplete()
   content.innerHTML = ""
   for (let i = 0; i < data.length; i++) {
     const card = document.createElement("div")
@@ -84,6 +85,26 @@ const addTodo = () => {
     form.style.display = "none";
   }
 }
+
+const kosongInput = () => {
+  document.getElementById("namaTugas").value = ""
+  document.getElementById("desc").value = ""
+  document.getElementById("date").value = ""
+  form.style.display = "none"
+}
+
+const taskComplete = () => {
+  const result = document.getElementById("result")
+  const check = document.getElementById("check")
+  for (let i = 0; i < check.length; i++) {
+    if (check[i].checked) {
+      result.innerHTML = check[i].value
+      localStorage.setItem("check", check[i].value)
+    }
+  }
+}
+
+
 
 
 
