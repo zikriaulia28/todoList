@@ -177,14 +177,14 @@ input[type="date"] {
 
 @media only screen and (max-width: 768px) {
   .text-profil {
-    display: none;
+    display: none !important;
   }
 
   .content {
-    width: 100%;
+    width: 100% !important;
   }
 
   .header-content div p {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 }
