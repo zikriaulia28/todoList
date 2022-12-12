@@ -187,4 +187,18 @@ input[type="date"] {
   .header-content div p {
     font-size: 12px !important;
   }
+
+  .task div input[type="radio"] {
+    margin-top: 4px;
+    margin-left: 2px;
+    width: 14px;
+    height: 14px;
+  }
+
+  .task .btn-add {
+    margin-right: 5px;
+    width: 50px;
+    height: 25px;
+    font-size: 12px;
+  }
 }
